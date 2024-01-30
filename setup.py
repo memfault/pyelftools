@@ -20,7 +20,7 @@ except IOError:
 
 setup(
     # metadata
-    name='memfault-pyelftools',
+    name='mflt-pyelftools',
     description='Fork of pyelftools. Library for analyzing ELF files and DWARF debugging information',
     long_description=description,
     license='Public domain',
