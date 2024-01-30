@@ -20,15 +20,15 @@ except IOError:
 
 setup(
     # metadata
-    name='pyelftools',
-    description='Library for analyzing ELF files and DWARF debugging information',
+    name='memfault-pyelftools',
+    description='Fork of pyelftools. Library for analyzing ELF files and DWARF debugging information',
     long_description=description,
     license='Public domain',
     version='0.30.1',
     author='Eli Bendersky',
     maintainer='Eli Bendersky',
     author_email='eliben@gmail.com',
-    url='https://github.com/eliben/pyelftools',
+    url='https://github.com/memfault/pyelftools',
     platforms='Cross Platform',
     classifiers = [
         'Programming Language :: Python :: 3',
